@@ -1,7 +1,6 @@
 ﻿using Dalamud.Game;
 using Dalamud.Game.ClientState;
 using Dalamud.Game.ClientState.Party;
-using Dalamud.Game.Command;
 using Dalamud.Game.Gui;
 using Dalamud.IoC;
 
@@ -11,9 +10,6 @@ public class Service
 {
     [PluginService]
     public static Framework Framework { get; private set; }
-
-    [PluginService]
-    public static CommandManager CommandManager { get; private set; }
 
     [PluginService]
     public static GameGui GameGui { get; private set; }
