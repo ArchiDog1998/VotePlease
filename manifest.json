@@ -1,0 +1,22 @@
+{
+  "Author": "ArchiTed",
+  "Name": "Vote Please",
+  "InternalName": "VotePlease",
+  "Description": "Auto vote for you.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "mvp",
+    "vote"
+  ],
+  "CategoryTags": [
+    "vote"
+  ],
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/ArchiDog1998/VotePlease/main/docs/RotationSolverIcon_128.png",
+  "Punchline": "Auto vote for you.",
+  "AcceptsFeedback": true
+}
