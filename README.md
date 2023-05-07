@@ -1,4 +1,4 @@
-# VotePlease
+# ![](icon.png)VotePlease
 
 ![Github Latest Releases](https://img.shields.io/github/downloads/ArchiDog1998/VotePlease/latest/total.svg?style=for-the-badge)
 ![Github All Releases](https://img.shields.io/github/downloads/ArchiDog1998/VotePlease/total.svg?style=for-the-badge)

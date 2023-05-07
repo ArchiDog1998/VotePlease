@@ -2,7 +2,7 @@
   "Author": "ArchiTed",
   "Name": "Vote Please",
   "InternalName": "VotePlease",
-  "Description": "Auto vote for you.",
+  "Description": "Auto vote for you.\nTank: Tank -> Healer -> DPS\nHealer: Healer -> Tank -> DPS\nDPS: DPS ->Tank -> Healer",
   "ApplicableVersion": "any",
   "Tags": [
     "mvp",
@@ -16,7 +16,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "IconUrl": "https://raw.githubusercontent.com/ArchiDog1998/VotePlease/main/docs/RotationSolverIcon_128.png",
+  "IconUrl": "https://raw.githubusercontent.com/ArchiDog1998/VotePlease/main/icon.png",
   "Punchline": "Auto vote for you.",
   "AcceptsFeedback": true
 }

@@ -31,9 +31,10 @@ internal class VotePleasePlugin : IDalamudPlugin, IDisposable
 
     private unsafe void FrameworkUpdate(Framework framework)
     {
+        if (Service.ClientState.LocalPlayer == null) return;
+
         var bannerWindow = (AtkUnitBase*)Service.GameGui.GetAddonByName("BannerMIP", 1);
         if (bannerWindow == null) return;
-        if (Service.ClientState.LocalPlayer == null) return;
 
         try
         {
@@ -47,9 +48,8 @@ internal class VotePleasePlugin : IDalamudPlugin, IDisposable
 
     private static unsafe int ChoosePlayer()
     {
-        var hud =
-    FFXIVClientStructs.FFXIV.Client.System.Framework.Framework.Instance()->GetUiModule()->GetAgentModule()->
-        GetAgentHUD();
+        var hud = FFXIVClientStructs.FFXIV.Client.System.Framework.Framework.Instance()
+            ->GetUiModule()->GetAgentModule()->GetAgentHUD();
 
         if(hud == null) throw new Exception("HUD is empty!");
 
