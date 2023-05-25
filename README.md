@@ -6,8 +6,10 @@
 ![Github License](https://img.shields.io/github/license/ArchiDog1998/VotePlease.svg?label=License&style=for-the-badge)
 ![Github Commits](https://img.shields.io/github/commits-since/ArchiDog1998/VotePlease/latest/main?style=for-the-badge)
 
-It can help you to auto vote the mvp.
+This plugin is merged into [`PandorasBox`](https://github.com/PunishXIV/PandorasBox/blob/master/PandorasBox/Features/UI/AutoVoteMvp.cs) named with `Auto-Commendation after Duty`. So do not use it.
 
 ```
-https://raw.githubusercontent.com/ArchiDog1998/Dalamud_Plugins/main/pluginmaster.json
+https://love.puni.sh/ment.json
 ```
+
+[![image](https://discordapp.com/api/guilds/1001823907193552978/embed.png?style=banner2)](https://discord.gg/Zzrcc8kmvy)
